@@ -1,0 +1,23 @@
+{
+  "name": "@aiagentkarl/agent-memory-mcp-server",
+  "version": "0.1.0",
+  "description": "Persistent memory for AI agents — store, retrieve, search knowledge across sessions",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "agent-memory-server": "./index.js"
+  },
+  "keywords": [
+    "mcp",
+    "agent",
+    "memory",
+    "persistent",
+    "knowledge",
+    "ai"
+  ],
+  "author": "AiAgentKarl",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.27.1"
+  }
+}
